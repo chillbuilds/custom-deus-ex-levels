@@ -1,0 +1,7 @@
+<P>- It's crucial that your connection is secure before checking in
+<P>- Sync up with Dragonfly when connection is estblished
+<P>- The equipment you requested can be found in the closet
+<P>- Use the following account to access your email
+<P>
+<P>login: sun_down
+<P>password: spider

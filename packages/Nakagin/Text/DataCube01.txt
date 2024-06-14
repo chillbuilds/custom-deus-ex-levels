@@ -1,0 +1,12 @@
+<P><JC>Welcome to Nakagin Tower
+<P>
+<P><JC>Your room key can be found on the shelf by the door. 
+<P><JC>After picking it up, use your keyring to lock and unlock the door to your room. 
+<P>
+<P><JC>Please help yourself to some snacks :)
+<P>
+<P><JC>Thanks for visiting, and we hope you enjoy your stay!
+<P>
+<P>
+<P><JC>Nakagin Tower is not responsible for theft or vandalism 
+<P><JC>as a result of an unsecured room.
