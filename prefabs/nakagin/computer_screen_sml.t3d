@@ -1,0 +1,327 @@
+Begin Map
+Begin Actor Class=LevelInfo Name=LevelInfo0
+     TimeSeconds=142.359039
+     Summary=LevelSummary'MyLevel.LevelSummary'
+     AIProfile(0)=27957
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="LevelInfo"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+     Name="LevelInfo0"
+End Actor
+Begin Actor Class=Brush Name=Brush0
+     MainScale=(SheerAxis=SHEER_ZX)
+     PostScale=(SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+    Begin Brush Name=Brush
+       Begin PolyList
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Brush'
+     Name="Brush0"
+End Actor
+Begin Actor Class=Brush Name=Brush5
+     CsgOper=CSG_Add
+     MainScale=(SheerAxis=SHEER_ZX)
+     PostScale=(SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+     Location=(Z=17.000000)
+     Rotation=(Pitch=-2176)
+    Begin Brush Name=Model243
+       Begin PolyList
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,-00013.000000,-00010.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00021.276596,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   -00001.000000,-00013.000000,-00010.000000
+             Vertex   -00001.000000,-00013.000000,+00010.000000
+             Vertex   -00001.000000,+00013.000000,+00010.000000
+             Vertex   -00001.000000,+00013.000000,-00010.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,+00013.000000,-00010.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   -00001.000000,+00013.000000,-00010.000000
+             Vertex   -00001.000000,+00013.000000,+00010.000000
+             Vertex   +00001.000000,+00013.000000,+00010.000000
+             Vertex   +00001.000000,+00013.000000,-00010.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   +00001.000000,+00013.000000,-00010.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00021.276596,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00001.000000,+00013.000000,-00010.000000
+             Vertex   +00001.000000,+00013.000000,+00010.000000
+             Vertex   +00001.000000,-00013.000000,+00010.000000
+             Vertex   +00001.000000,-00013.000000,-00010.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   +00001.000000,-00013.000000,-00010.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00001.000000,-00013.000000,-00010.000000
+             Vertex   +00001.000000,-00013.000000,+00010.000000
+             Vertex   -00001.000000,-00013.000000,+00010.000000
+             Vertex   -00001.000000,-00013.000000,-00010.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,+00013.000000,+00010.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00021.276596,+00000.000000
+             Vertex   -00001.000000,+00013.000000,+00010.000000
+             Vertex   -00001.000000,-00013.000000,+00010.000000
+             Vertex   +00001.000000,-00013.000000,+00010.000000
+             Vertex   +00001.000000,+00013.000000,+00010.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,-00013.000000,-00010.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00021.276596,+00000.000000
+             Vertex   -00001.000000,-00013.000000,-00010.000000
+             Vertex   -00001.000000,+00013.000000,-00010.000000
+             Vertex   +00001.000000,+00013.000000,-00010.000000
+             Vertex   +00001.000000,-00013.000000,-00010.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model243'
+     Name="Brush5"
+End Actor
+Begin Actor Class=Brush Name=Brush274
+     CsgOper=CSG_Subtract
+     MainScale=(SheerAxis=SHEER_ZX)
+     PostScale=(SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',ZoneNumber=1)
+     Location=(X=-0.978333,Z=17.207123)
+     Rotation=(Pitch=-2176)
+    Begin Brush Name=Model245
+       Begin PolyList
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00000.500000,-00012.000000,-00009.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00001.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00001.000000
+             Vertex   -00000.500000,-00012.000000,-00009.000000
+             Vertex   -00000.500000,-00012.000000,+00009.000000
+             Vertex   -00000.500000,+00012.000000,+00009.000000
+             Vertex   -00000.500000,+00012.000000,-00009.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00000.500000,+00012.000000,-00009.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   -00000.500000,+00012.000000,-00009.000000
+             Vertex   -00000.500000,+00012.000000,+00009.000000
+             Vertex   +00000.500000,+00012.000000,+00009.000000
+             Vertex   +00000.500000,+00012.000000,-00009.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A Flags=4194304
+             Origin   +00000.500000,+00012.000000,-00009.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             Pan      U=0 V=382
+             TextureU +00000.000000,+00021.276596,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00000.500000,+00012.000000,-00009.000000
+             Vertex   +00000.500000,+00012.000000,+00009.000000
+             Vertex   +00000.500000,-00012.000000,+00009.000000
+             Vertex   +00000.500000,-00012.000000,-00009.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   +00000.500000,-00012.000000,-00009.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00000.500000,-00012.000000,-00009.000000
+             Vertex   +00000.500000,-00012.000000,+00009.000000
+             Vertex   -00000.500000,-00012.000000,+00009.000000
+             Vertex   -00000.500000,-00012.000000,-00009.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00000.500000,+00012.000000,+00009.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00021.276596,+00000.000000
+             Vertex   -00000.500000,+00012.000000,+00009.000000
+             Vertex   -00000.500000,-00012.000000,+00009.000000
+             Vertex   +00000.500000,-00012.000000,+00009.000000
+             Vertex   +00000.500000,+00012.000000,+00009.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00000.500000,-00012.000000,-00009.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00021.276596,+00000.000000
+             Vertex   -00000.500000,-00012.000000,-00009.000000
+             Vertex   -00000.500000,+00012.000000,-00009.000000
+             Vertex   +00000.500000,+00012.000000,-00009.000000
+             Vertex   +00000.500000,-00012.000000,-00009.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model245'
+     Name="Brush274"
+End Actor
+Begin Actor Class=Brush Name=Brush282
+     CsgOper=CSG_Add
+     MainScale=(SheerAxis=SHEER_ZX)
+     PostScale=(SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+     Location=(X=1.000000)
+    Begin Brush Name=Model248
+       Begin PolyList
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00006.000000,-00006.000000,-00000.500000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00021.276596,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   -00006.000000,-00006.000000,-00000.500000
+             Vertex   -00006.000000,-00006.000000,+00000.500000
+             Vertex   -00006.000000,+00006.000000,+00000.500000
+             Vertex   -00006.000000,+00006.000000,-00000.500000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00006.000000,+00006.000000,-00000.500000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   -00006.000000,+00006.000000,-00000.500000
+             Vertex   -00006.000000,+00006.000000,+00000.500000
+             Vertex   +00006.000000,+00006.000000,+00000.500000
+             Vertex   +00006.000000,+00006.000000,-00000.500000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   +00006.000000,+00006.000000,-00000.500000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00021.276596,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00006.000000,+00006.000000,-00000.500000
+             Vertex   +00006.000000,+00006.000000,+00000.500000
+             Vertex   +00006.000000,-00006.000000,+00000.500000
+             Vertex   +00006.000000,-00006.000000,-00000.500000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   +00006.000000,-00006.000000,-00000.500000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00006.000000,-00006.000000,-00000.500000
+             Vertex   +00006.000000,-00006.000000,+00000.500000
+             Vertex   -00006.000000,-00006.000000,+00000.500000
+             Vertex   -00006.000000,-00006.000000,-00000.500000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00006.000000,+00006.000000,+00000.500000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00021.276596,+00000.000000
+             Vertex   -00006.000000,+00006.000000,+00000.500000
+             Vertex   -00006.000000,-00006.000000,+00000.500000
+             Vertex   +00006.000000,-00006.000000,+00000.500000
+             Vertex   +00006.000000,+00006.000000,+00000.500000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00006.000000,-00006.000000,-00000.500000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00021.276596,+00000.000000
+             Vertex   -00006.000000,-00006.000000,-00000.500000
+             Vertex   -00006.000000,+00006.000000,-00000.500000
+             Vertex   +00006.000000,+00006.000000,-00000.500000
+             Vertex   +00006.000000,-00006.000000,-00000.500000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model248'
+     Name="Brush282"
+End Actor
+Begin Actor Class=Brush Name=Brush283
+     CsgOper=CSG_Add
+     MainScale=(SheerAxis=SHEER_ZX)
+     PostScale=(SheerAxis=SHEER_ZX)
+     Level=LevelInfo'MyLevel.LevelInfo0'
+     Tag="Brush"
+     Region=(Zone=LevelInfo'MyLevel.LevelInfo0',iLeaf=-1)
+     Location=(X=1.000000,Z=8.000000)
+    Begin Brush Name=Model249
+       Begin PolyList
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,-00002.000000,-00008.000000
+             Normal   -00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,+00021.276596,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   -00001.000000,-00002.000000,-00008.000000
+             Vertex   -00001.000000,-00002.000000,+00008.000000
+             Vertex   -00001.000000,+00002.000000,+00008.000000
+             Vertex   -00001.000000,+00002.000000,-00008.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,+00002.000000,-00008.000000
+             Normal   +00000.000000,+00001.000000,+00000.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   -00001.000000,+00002.000000,-00008.000000
+             Vertex   -00001.000000,+00002.000000,+00008.000000
+             Vertex   +00001.000000,+00002.000000,+00008.000000
+             Vertex   +00001.000000,+00002.000000,-00008.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   +00001.000000,+00002.000000,-00008.000000
+             Normal   +00001.000000,+00000.000000,+00000.000000
+             TextureU +00000.000000,-00021.276596,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00001.000000,+00002.000000,-00008.000000
+             Vertex   +00001.000000,+00002.000000,+00008.000000
+             Vertex   +00001.000000,-00002.000000,+00008.000000
+             Vertex   +00001.000000,-00002.000000,-00008.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   +00001.000000,-00002.000000,-00008.000000
+             Normal   +00000.000000,-00001.000000,+00000.000000
+             TextureU -00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00000.000000,-00021.276596
+             Vertex   +00001.000000,-00002.000000,-00008.000000
+             Vertex   +00001.000000,-00002.000000,+00008.000000
+             Vertex   -00001.000000,-00002.000000,+00008.000000
+             Vertex   -00001.000000,-00002.000000,-00008.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,+00002.000000,+00008.000000
+             Normal   +00000.000000,+00000.000000,+00001.000000
+             TextureU +00021.276596,+00000.000000,+00000.000000
+             TextureV +00000.000000,+00021.276596,+00000.000000
+             Vertex   -00001.000000,+00002.000000,+00008.000000
+             Vertex   -00001.000000,-00002.000000,+00008.000000
+             Vertex   +00001.000000,-00002.000000,+00008.000000
+             Vertex   +00001.000000,+00002.000000,+00008.000000
+          End Polygon
+          Begin Polygon Texture=ShipGrayMetal_A
+             Origin   -00001.000000,-00002.000000,-00008.000000
+             Normal   +00000.000000,+00000.000000,-00001.000000
+             TextureU +00001.000000,+00000.000000,+00000.000000
+             TextureV +00000.000000,-00001.000000,+00000.000000
+             Vertex   -00001.000000,-00002.000000,-00008.000000
+             Vertex   -00001.000000,+00002.000000,-00008.000000
+             Vertex   +00001.000000,+00002.000000,-00008.000000
+             Vertex   +00001.000000,-00002.000000,-00008.000000
+          End Polygon
+       End PolyList
+    End Brush
+     Brush=Model'MyLevel.Model249'
+     Name="Brush283"
+End Actor
+End Map
