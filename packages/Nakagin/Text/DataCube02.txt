@@ -3,5 +3,5 @@
 <P>- The equipment you requested can be found in the closet
 <P>- Use the following account to access your email
 <P>
-<P>login: sun_down
-<P>password: spider
+<P>login: spider
+<P>password: sun_down
